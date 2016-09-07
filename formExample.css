@@ -1,0 +1,52 @@
+/*
+** below are the default settings used on desktops, laptops, etc
+*/
+html{
+	background-color: yellow;
+}
+
+#formHeading {
+	color: navy;
+	font-size: 2em;
+}
+
+#addItemButton {
+	background-color: blue;
+	color: white;
+	font-size: 1.5em;
+	width: 100px;
+}
+#clearAll{
+	background-color: purple;
+	color: gold;
+	font-size:1.5em;
+	width: 110px;
+}
+
+/*
+** for smaller screens (ie phones), use the settings below
+*/
+@media only screen and (max-width: 550px) {
+	html{
+		background-color: navy;
+		color: white;
+	}
+	#formHeading {
+		color: red;
+		font-size: 1em;
+	}
+
+	#addItemButton {
+		font-size: 1em;
+		width: 70px;
+		background-color: black;
+	}
+	#clearAll{
+		color: black;
+		background-color: red;
+		border:white 2px solid;
+		width: 75px;
+		font-size:1em;
+		
+	}
+}
